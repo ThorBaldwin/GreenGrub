@@ -1,6 +1,9 @@
 import { Button } from "/components/ui/button"
 import Image from "next/image";
 import About from "/components/About";
+import Mission from "/components/Mission";
+import Ratings from "@/components/Ratings";
+import Faqs from "@/components/Faqs";
 
 
 export default function Home() {
@@ -46,6 +49,9 @@ export default function Home() {
       </div>
 
       <About />
+      <Mission />
+      <Ratings />
+      <Faqs />
 
     </main>
 
