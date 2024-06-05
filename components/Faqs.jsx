@@ -9,8 +9,8 @@ import {
 function Faqs() {
   return (
     <Accordion type="single" collapsible className="w-3/4 m-auto flex flex-col mb-40">
-        <div className="font-bold text-4xl text-neutral-900 mb-8">
-            <h2>FAQ<span className="text-2xl">s</span></h2>
+        <div className="font-black text-4xl text-neutral-900 mb-8">
+            <h2>FAQ<span className="font-black text-2xl">s</span></h2>
         </div>
         <div className=" text-gray-600 text-left text-[17px]">
         <AccordionItem value="item-1">

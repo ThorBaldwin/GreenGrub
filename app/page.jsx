@@ -24,7 +24,7 @@ export default function Home() {
         height={250}
         alt="/"
         />
-        <div className="font-bold text-[52px] text-neutral-900">
+        <div className="font-black text-[52px] text-neutral-900">
           <h1>GreenGrub: Eco-Friendly Food <br /> Delivered Fast!</h1>
         </div>
         <div className="text-gray-600 text-xl">

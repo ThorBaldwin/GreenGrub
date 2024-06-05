@@ -6,13 +6,14 @@ import { Button } from "/components/ui/button"
 export default function About() {
   return (
     <div className="tracking-tight mb-52">
-      <div className="font-bold text-5xl text-neutral-900">
+      <div className="font-black text-5xl text-neutral-900">
         <h1 className="mb-4">Easy as 1, 2, 3.</h1>
         <p className="font-normal text-gray-600 text-xl">Sustainable food delivery, right to your door.</p>
         <Button
         className=" mt-6 text-[16px]"
         variant="default"
         size="lg"
+        
         >
           Join the waitlist
         </Button>
