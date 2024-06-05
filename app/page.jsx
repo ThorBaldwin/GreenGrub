@@ -12,14 +12,14 @@ export default function Home() {
     <main className="w-3/4 m-auto">
       <div className="flex flex-col  justify-center tracking-tight leading-tight items-center gap-6 mt-24 mb-60">
         <Image 
-        className="absolute left-24 top-80 rotate-12 -z-20"
+        className="absolute left-24 top-80 rotate-12 -z-20 max-md:-left-24 max-md:w-1/2"
         src="leaves.svg"
         width={250}
         height={250}
         alt="/"
         />
         <Image 
-        className="absolute rotate-[-45deg] right-48 top-32 -z-20"
+        className="absolute rotate-[-45deg] right-48 top-32 -z-20 max-md:right-20 max-md:w-1/6"
         src="leaves.svg"
         width={150}
         height={250}
