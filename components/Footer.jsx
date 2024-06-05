@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 function Footer() {
@@ -18,18 +19,26 @@ function Footer() {
             <p>© GreenGrub - All rights reserved.</p>
         </div>
         <div className="flex mt-32">
+          <Link
+          href={"https://www.instagram.com/nopython_/"}
+          >
             <Image 
             src="/ig.svg" 
             alt="leaves" 
             width={50} 
             height={250} 
             />
+          </Link>
+          <Link
+          href={"https://www.youtube.com/@Yespython"}
+          >
             <Image 
             src="/yt.svg" 
             alt="leaves" 
             width={50} 
             height={250} 
             />
+          </Link>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Button } from "/components/ui/button"
+import Link from 'next/link'
 
 
 
@@ -9,14 +10,15 @@ export default function About() {
       <div className="font-black text-5xl text-neutral-900">
         <h1 className="mb-4">Easy as 1, 2, 3.</h1>
         <p className="font-normal text-gray-600 text-xl">Sustainable food delivery, right to your door.</p>
+        <Link href={"/waitlist"}>
         <Button
         className=" mt-6 text-[16px]"
         variant="default"
         size="lg"
-        
         >
           Join the waitlist
         </Button>
+        </Link>
       </div>
       <div className="grid grid-cols-3 mt-20 gap-28 max-lg:flex flex-col">
         <div className='flex flex-col items-center gap-3'>

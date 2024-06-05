@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
         <div>
             <Link 
-            href={"/"}
+            href={"/profile"}
             >
                 <Button 
                 size="sm"

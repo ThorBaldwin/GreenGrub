@@ -2,8 +2,9 @@ import { Button } from "/components/ui/button"
 import Image from "next/image";
 import About from "/components/About";
 import Mission from "/components/Mission";
-import Ratings from "@/components/Ratings";
-import Faqs from "@/components/Faqs";
+import Ratings from "/components/Ratings";
+import Faqs from "/components/Faqs";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -31,13 +32,17 @@ export default function Home() {
           <p>Our electric vehicles ensure your meals arrive fresh, fast, and with a minimal carbon footprint. </p>
         </div>
         <div className="flex gap-8">
+          <Link href={"/profile"}>
           <Button 
+          href="/profile"
           className="text-[16px]"
           variant="default"
           size="lg"
           >
             Sign up
           </Button>
+          </Link>
+          <Link href={"/about"}>
           <Button 
           className="text-[16px]"
           variant="outline"
@@ -45,6 +50,7 @@ export default function Home() {
           >
             Find out
           </Button>
+          </Link>
         </div>
       </div>
 
