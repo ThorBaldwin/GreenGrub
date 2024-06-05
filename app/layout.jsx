@@ -5,8 +5,8 @@ import Navbar from "/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "GreenGrub",
-  description: "Marketing for food delivery apps",
+  title: "Home - Eco Friendly Food Delivery",
+  description: "Sustainable food delivery, right to your door",
 };
 
 export default function RootLayout({ children }) {
