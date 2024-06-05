@@ -6,6 +6,7 @@ function Footer() {
   return (
     <div className="w-3/4 flex m-auto justify-between text-gray-600 mb-20">
         <div className="text-left">
+          <Link href="/">
             <Image 
             className="mb-3"
             src="/earth.svg" 
@@ -13,6 +14,7 @@ function Footer() {
             width={50} 
             height={250} 
             />
+          </Link>
             <h2
             className="mb-12"
             >Earth-friendly food delivery, right <br /> at your door.</h2>
