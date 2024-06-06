@@ -25,17 +25,17 @@ export default function Home() {
         height={250}
         alt="/"
         />
-        <div className="font-black text-[64px] text-neutral-900">
+        <div className="font-black text-[64px] text-neutral-900 max-sm:text-5xl">
           <h1>GreenGrub: Eco-Friendly Food <br /> <span className="animate-text bg-gradient-to-r from-lime-400 via-green-600 to-lime-400 bg-clip-text text-transparent">Delivered Fast!</span> </h1>
         </div>
         <div className="text-gray-600 text-xl">
           <p>Our electric vehicles ensure your meals arrive fresh, fast, and with a minimal carbon footprint. </p>
         </div>
-        <div className="flex mt-3 gap-8">
+        <div className="flex mt-3 gap-8 max-sm:gap-4">
           <Link href={"/profile"}>
           <Button 
           href="/profile"
-          className="text-[19px]"
+          className="text-[19px] max-sm:text-[16px]"
           variant="default"
           size="lg"
           >
@@ -44,7 +44,7 @@ export default function Home() {
           </Link>
           <Link href={"/about"}>
           <Button 
-          className="text-[19px]"
+          className="text-[19px] max-sm:text-[16px]"
           variant="outline"
           size="lg"
           >
