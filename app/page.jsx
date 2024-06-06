@@ -26,7 +26,7 @@ export default function Home() {
         alt="/"
         />
         <div className="font-black text-[64px] text-neutral-900">
-          <h1>GreenGrub: Eco-Friendly Food <br /> Delivered Fast!</h1>
+          <h1>GreenGrub: Eco-Friendly Food <br /> <span className="animate-text bg-gradient-to-r from-lime-400 via-green-600 to-lime-400 bg-clip-text text-transparent">Delivered Fast!</span> </h1>
         </div>
         <div className="text-gray-600 text-xl">
           <p>Our electric vehicles ensure your meals arrive fresh, fast, and with a minimal carbon footprint. </p>
@@ -35,7 +35,7 @@ export default function Home() {
           <Link href={"/profile"}>
           <Button 
           href="/profile"
-          className="text-xl"
+          className="text-[19px]"
           variant="default"
           size="lg"
           >
@@ -44,7 +44,7 @@ export default function Home() {
           </Link>
           <Link href={"/about"}>
           <Button 
-          className="text-xl"
+          className="text-[19px]"
           variant="outline"
           size="lg"
           >

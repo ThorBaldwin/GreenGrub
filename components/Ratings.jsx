@@ -23,7 +23,7 @@ function Ratings() {
         <div className="text-gray-700 text-lg">Customer</div>
       </div>
     </div>
-    <div className="text-4xl tracking-widest text-green-500">★★★★★</div>
+    <div className="text-5xl tracking-widest animate-text bg-gradient-to-r from-lime-400 via-green-600 to-lime-400 bg-clip-text text-transparent">★★★★★</div>
   </div>
 </div>
 <div className=" rounded-xl bg-white p-10 shadow-lg">
@@ -46,7 +46,7 @@ function Ratings() {
         <div className="text-gray-700 text-lg">Customer</div>
       </div>
     </div>
-    <div className="text-4xl tracking-widest text-green-500">★★★★★</div>
+    <div className="text-5xl tracking-widest animate-text bg-gradient-to-r from-lime-400 via-green-600 to-lime-400 bg-clip-text text-transparent">★★★★★</div>
   </div>
 </div>
 </div>
