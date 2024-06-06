@@ -20,7 +20,7 @@ export default function Home() {
         alt="/"
         />
         <Image 
-        className="absolute rotate-[-45deg] right-32 top-32 -z-20 max-md:right-0 max-md:top-28 max-md:w-1/6"
+        className="absolute rotate-[-45deg] right-32 top-32 -z-20 max-md:right-5 max-md:top-28 max-md:w-1/6"
         src="leaves.svg"
         width={150}
         height={250}
