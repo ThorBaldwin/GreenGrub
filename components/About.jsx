@@ -10,15 +10,6 @@ export default function About() {
       <div className="font-black text-[52px] text-neutral-900">
         <h1 className="mb-3 max-sm:text-4xl">Easy as 1, 2, 3.</h1>
         <p className="font-normal text-gray-600 text-xl">Sustainable food delivery, right to your door.</p>
-        <Link href={"/waitlist"}>
-        <Button
-        className=" mt-6 text-xl max-sm:text-[16px]"
-        variant="default"
-        size="lg"
-        >
-          Join the waitlist
-        </Button>
-        </Link>
       </div>
       <div className="grid grid-cols-3 mt-20 gap-28 max-lg:flex flex-col">
         <div className='flex flex-col items-center gap-3'>

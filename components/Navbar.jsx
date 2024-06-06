@@ -4,7 +4,7 @@ import { Button } from "/components/ui/button"
 
 export default function Navbar() {
   return (
-    <div className='w-3/4 m-auto bg-transparent h-20 flex justify-between items-center'>
+    <div className=' bg-transparent h-20 flex justify-between items-center'>
         <div>
             <Link href="/">
                 <Image 
@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
         <div>
             <Link 
-            href={"/profile"}
+            href={"/sign-in"}
             >
                 <Button 
                 size="sm"
