@@ -19,11 +19,11 @@ function Ratings() {
         className="size-12 rounded-full object-cover"
       />
       <div className="text-left">
-        <div className="text-xl text-neutral-900 font-semibold">James S.</div>
-        <div className="text-gray-700 text-md">Customer</div>
+        <div className="text-2xl text-neutral-900 font-semibold">James S.</div>
+        <div className="text-gray-700 text-lg">Customer</div>
       </div>
     </div>
-    <div className="text-3xl tracking-widest text-green-500">★★★★★</div>
+    <div className="text-4xl tracking-widest text-green-500">★★★★★</div>
   </div>
 </div>
 <div className=" rounded-xl bg-white p-10 shadow-lg">
@@ -42,11 +42,11 @@ function Ratings() {
         className="size-12 rounded-full object-cover"
       />
       <div className="text-left">
-        <div className="text-xl text-neutral-900 font-semibold">Elizabeth K.</div>
-        <div className="text-gray-700 text-md">Customer</div>
+        <div className="text-2xl text-neutral-900 font-semibold">Elizabeth K.</div>
+        <div className="text-gray-700 text-lg">Customer</div>
       </div>
     </div>
-    <div className="text-3xl tracking-widest text-green-500">★★★★★</div>
+    <div className="text-4xl tracking-widest text-green-500">★★★★★</div>
   </div>
 </div>
 </div>

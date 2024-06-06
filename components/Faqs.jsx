@@ -12,7 +12,7 @@ function Faqs() {
         <div className="font-black text-4xl text-neutral-900 mb-8">
             <h2>FAQ<span className="font-black text-2xl">s</span></h2>
         </div>
-        <div className=" text-gray-600 text-left text-[17px]">
+        <div className=" text-gray-600 text-left text-xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>What makes your food delivery service eco-friendly?</AccordionTrigger>
           <AccordionContent>
