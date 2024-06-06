@@ -5,7 +5,7 @@ import Link from "next/link"
 function Footer() {
   return (
     <div className="w-3/4 flex m-auto leading-tight justify-between text-gray-600 mb-20">
-        <div className="text-left text-[17px]">
+        <div className="text-left text-[17px] font-semibold">
           <Link href="/">
             <Image 
             className="mb-3"
