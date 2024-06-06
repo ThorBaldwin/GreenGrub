@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <main className="w-3/4 m-auto">
       <div className="flex flex-col justify-center tracking-tight leading-tight items-center gap-6 mt-32 mb-44">
+        <Image src="/bg.png" width={300} height={300} alt="/" className="absolute w-full h-full top-0 left-0 object-cover -z-40" />
         <Image 
         className="absolute left-12 top-80 rotate-12 -z-20 max-md:-left-24 max-md:w-1/2"
         src="leaves.svg"
