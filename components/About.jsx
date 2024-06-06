@@ -12,7 +12,7 @@ export default function About() {
         <p className="font-normal text-gray-600 text-xl">Sustainable food delivery, right to your door.</p>
         <Link href={"/waitlist"}>
         <Button
-        className=" mt-6 text-xl"
+        className=" mt-6 text-xl max-sm:text-[16px]"
         variant="default"
         size="lg"
         >
