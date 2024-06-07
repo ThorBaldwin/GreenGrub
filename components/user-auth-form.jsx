@@ -46,7 +46,7 @@ export function UserAuthForm({ className, ...props }) {
           <Button
           className="mt-4">
 
-            Sign In with Email
+            Sign Up with Email
           </Button>
         </div>
       </form>
